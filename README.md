@@ -5,14 +5,64 @@ An elegant e-commerce platform for luxury perfumes, built with PHP and MySQL. De
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Showcase
+
+### 🏠 Home Page
+Luxury interface designed for a premium fragrance experience.
 <p align="center">
-  <img src="assets/readme-images/banner.png" alt="Ceylora Home" width="800">
+  <img src="assets/readme-images/home03.png" width="800" alt="Home Banner">
+</p>
+<p align="center">
+  <img src="assets/readme-images/home01.png" width="400">
+  <img src="assets/readme-images/home02.png" width="400">
 </p>
 
+---
+
+### 🛍️ Shop & Products
+Fully dynamic product listing and detail views.
 <p align="center">
-  <img src="assets/readme-images/mobile-view.png" width="250" alt="Mobile View">
-  <img src="assets/readme-images/admin-panel.png" width="500" alt="Admin Panel">
+  <img src="assets/readme-images/shop01.png" width="400">
+  <img src="assets/readme-images/shop02.png" width="400">
+</p>
+
+---
+
+### 🛠️ Services
+Premium services offered by Ceylora.
+<p align="center">
+  <img src="assets/readme-images/services01.png" width="400">
+  <img src="assets/readme-images/services02.png" width="400">
+</p>
+
+---
+
+### 📖 About Us
+The story and mission behind the brand.
+<p align="center">
+  <img src="assets/readme-images/about01.png" width="400">
+  <img src="assets/readme-images/about02.png" width="400">
+</p>
+
+---
+
+### 📞 Contact Us
+Customer inquiry and contact interface.
+<p align="center">
+  <img src="assets/readme-images/contact_us01.png" width="800">
+</p>
+
+---
+
+### 🔐 Admin Dashboard
+Comprehensive management system for products, orders, and inquiries.
+<p align="center">
+  <img src="assets/readme-images/admin01.png" width="400">
+  <img src="assets/readme-images/admin02.png" width="400">
+</p>
+<p align="center">
+  <img src="assets/readme-images/admin03.png" width="400">
+  <img src="assets/readme-images/admin04.png" width="400">
 </p>
 
 ---
