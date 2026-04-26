@@ -63,6 +63,8 @@ Comprehensive management system for products, orders, and inquiries.
 <p align="center">
   <img src="assets/readme-images/admin03.png" width="400">
   <img src="assets/readme-images/admin04.png" width="400">
+  <img src="assets/readme-images/admin05.png" width="400">
+  <img src="assets/readme-images/admin06.png" width="400">
 </p>
 
 ---
