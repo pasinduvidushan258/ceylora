@@ -1,0 +1,138 @@
+/* ==========================================================================
+   Login Page Styles
+   ========================================================================== */
+
+.login-body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+    margin: 0;
+}
+
+.login-box {
+    max-width: 400px;
+    width: 90%;
+    padding: 40px;
+    background: #111;
+    border: 1px solid #d4af37; /* Gold Border */
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.login-box h2 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background: #000;
+    border: 1px solid #333;
+    color: white;
+    box-sizing: border-box; /* Prevent padding from extending beyond input box */
+}
+
+.login-box input:focus {
+    border-color: #d4af37;
+    outline: none;
+}
+
+.login-box button {
+    background: #d4af37;
+    color: black;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.login-box button:hover {
+    background: #fff;
+}
+
+
+/* Product Management Page Styles */
+.admin-container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    color: white;
+}
+
+.admin-box {
+    background: #111;
+    padding: 30px;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+    margin-bottom: 50px;
+}
+
+.admin-box h3 {
+    margin-top: 0;
+    color: #d4af37;
+    margin-bottom: 20px;
+}
+
+
+.btn-primary {
+    background: #d4af37;
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-primary:hover { background: #fff; }
+
+/* Table Styles */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #111;
+}
+
+.admin-table th {
+    background: #1a1a1a;
+    color: #d4af37;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #333;
+}
+
+.admin-table td {
+    padding: 15px;
+    border-bottom: 1px solid #222;
+}
+
+.inventory-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border: 1px solid #333;
+}
+
+.delete-btn {
+    color: #ff4444;
+    text-decoration: none;
+    border: 1px solid #ff4444;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.delete-btn:hover { background: #ff4444; color: white; }
+
+

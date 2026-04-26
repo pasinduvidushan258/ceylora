@@ -1,0 +1,14 @@
+# Ignore Database connection and Config files
+includes/config.php
+includes/db_connect.php
+
+# Ignore API folders if they contain keys
+api/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+

@@ -1,0 +1,104 @@
+/* --- Modern UI Enhancements --- */
+
+/* Global responsive reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img, picture, video, iframe, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+iframe {
+    max-width: 100%;
+    min-width: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+/* 1. Buttons - Rounded corners with hover effects */
+.btn-gold, .btn-primary, .submit-btn, button {
+    border-radius: 50px; /* Fully rounded (pill shape) appearance */
+    padding: 12px 30px;
+    background-color: var(--gold);
+    color: #000;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Smooth animation like LMS site */
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.2);
+}
+
+.btn-gold:hover, .btn-primary:hover, button:hover {
+    transform: translateY(-4px); /* Lift up on hover */
+    box-shadow: 0 10px 20px rgba(212, 175, 55, 0.4);
+    background-color: #fff; /* Turn white on hover */
+}
+
+/* 2. Product Cards - Lift effect on hover */
+.product-card {
+    background-color: var(--card-bg);
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden;
+    border: 1px solid #1a1a1a;
+    transition: all 0.4s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px) scale(1.02); /* Lift up and slightly enlarge on hover */
+    border-color: var(--gold);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
+/* 3. Input Fields - Rounded form fields */
+input[type="text"], 
+input[type="number"], 
+input[type="password"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 14px 20px;
+    background: #000;
+    border: 1px solid #222;
+    color: #fff;
+    border-radius: 10px; /* Rounded field corners */
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: var(--gold);
+    outline: none;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+}
+
+
+/* User Avatar (Circular display showing user's initial after login) */
+.user-avatar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: var(--gold); /* Gold background */
+    color: #000 !important; /* Black text */
+    border-radius: 50%; /* Perfect circle */
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.user-avatar:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.6);
+    background-color: #fff; /* Turn white on hover */
+}
